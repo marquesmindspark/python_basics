@@ -1,15 +1,20 @@
 # Basic python
-# 
-# comments
+
+#----comments
+
 '''
+multiples lines comments
+multiples lines comments
 multiples lines comments
 '''
 
 """
 also multiples lines comments
+also multiples lines comments
+also multiples lines comments
 """
 
-#!
+#basic of basic
 print('Hello, world!')
 
 #----variables 
