@@ -12,7 +12,7 @@ also multiples lines comments
 #!
 print('Hello, world!')
 
-#variables 
+#----variables 
 greet = 'Hello'
 
 # access character from 1st index to 3rd index
@@ -25,7 +25,7 @@ print(type(x))
 print(greet[1])
 print(len(greet))
 
-#list
+#----list
 lista = ["banana","laranja","maça"]
 
 #list size
@@ -33,17 +33,17 @@ print (len(lista))
 
 print(lista)
 
-#tuplos
+#----tuplos
 tuplo1 = ("banana","laranja","maça")
 print (tuplo1)
 print (len(tuplo1))
 
-#sets sem ordem e sem poder ter duplicados ou seja item repetidos são ignorados
+#----set's no order and does not permit duplicates(does not count then)
 set = {"banana","laranja","maça","maça"}
 print (set)
 print (len(set))
 
-#dicionarios tb não permite duplicados
+#----dicionary does not permit duplicates(does not count then)
 dictionary = {
 "marca" : "Ford",
 "modelo" : "focus",
@@ -51,11 +51,13 @@ dictionary = {
 "matricula" : "a7-34-fg"
 }
 print(dictionary)
+
+#dictionary size
 print(len(dictionary))
 
 print(dictionary["marca"])
 
-#conditions
+#----conditions
 a = 100
 b =  100
 
@@ -63,8 +65,7 @@ if a > b:
     print("a maior que b")
 elif a == b:
     print("a igual a b")
-else:
-    
+else:   
     print("b maior que a")
 
 #while loop
@@ -83,11 +84,11 @@ fruta = ["banana","laranja","maça"]
 
 for x in fruta:
     print(x)
-    #hipotese de quando acabar a interação
+#else -> "when its over"
 else:
     print("I'm done!")
 
-#iteracao em string
+#interaction from a string
 for x in "banana":
     print(x)
 
@@ -96,22 +97,24 @@ for x in fruta:
     if (x == "banana"):
         break
 
-#funtions
+#----functions
 def funcao():
     print("sou uma função")
 
+#function call
 funcao()
 
 # function with arguments
-def funcaonome(nome):
+def functionname(nome):
     print(nome)
 
-funcaonome("luis")
+#function call
+functionname("luis")
 
-#objets
-class minhaclass():
+#----objets
+class myclass():
     x = 5
 
-new = minhaclass()
+new = myclass()
 
 print(new.x)
